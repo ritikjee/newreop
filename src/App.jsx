@@ -1,14 +1,7 @@
-import { useState } from 'react'
-import Certificet from './Certificet'
+import Certificate from "./Certificate";
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-   <>
-   <Certificet/>
-   </>
-  )
+  return <Certificate />;
 }
 
-export default App
+export default App;
